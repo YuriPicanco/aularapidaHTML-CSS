@@ -1,0 +1,141 @@
+.title {
+  text-align: center;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.diff-text {
+  max-width: 100px;
+  text-align: left;
+}
+
+.diff-li {
+  align-self: flex-end;
+  flex-direction: column;
+}
+
+.css {
+  color: blue; /* Cor do texto */
+  font-size: 20px; /* Tamanho da fonte */
+  font-weight: bold; /* Negrito */
+  font-style: italic; /* Itálico */
+  font-family: Arial, sans-serif; /* Fonte */
+  text-decoration: underline; /* Sublinhado */
+}
+
+.colorido {
+  color: #ff5733; /* Cor do texto */
+  font-weight: bold; /* Negrito */
+  font-style: italic; /* Itálico */
+}
+
+/* Estilo para a segunda frase */
+.dinamico {
+  color: #6699ff; /* Cor do texto */
+  font-size: 22px; /* Tamanho da fonte */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+}
+
+/* Estilo para a terceira frase */
+.mais-colorido {
+  background-image: linear-gradient(
+    to right,
+    #ffd700,
+    #ff5733
+  ); /* Fundo gradiente colorido */
+}
+
+/* Estilos para o container principal */
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* Estilos para o texto na primeira coluna */
+.box-text {
+  grid-column: 1 / span 2;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Estilos para os elementos de mídia na segunda coluna */
+.box-media {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Estilos para o áudio */
+.box-audio {
+  grid-column: 1 / span 2;
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+
+/*FLEX-BOX*/
+.flexbox-explanation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  max-height: fit-content;
+  padding: 10px;
+}
+
+.flexbox-item {
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 10px;
+}
+
+.flexbox-item-1 {
+  background-color: #ff5733;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 10px;
+}
+
+.flexbox-item-2 {
+  background-color: #6699ff;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 10px;
+}
+
+.flexbox-item-3 {
+  background-color: #ffd700;
+  max-height: fit-content;
+  padding: 10px;
+}
+.flexbox-item-3-column {
+  background-color: #ffd700;
+  max-width: fit-content;
+  padding: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 200px;
+  min-height: 200px;
+}
+.flexbox-explanation .code {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-left: 70px;
+  min-width: 500px;
+}
